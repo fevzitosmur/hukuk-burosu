@@ -1,0 +1,131 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adalet Hukuk Bürosu</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Adalet Hukuk Bürosu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#anasayfa">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hizmetler">Hizmetler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hakkimizda">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="anasayfa" class="hero">
+        <div class="container">
+            <h1 class="display-4">Adalet Hukuk Bürosu</h1>
+            <p class="lead">Hukuki haklarınızı korumak için yanınızdayız</p>
+            <a href="#iletisim" class="btn btn-primary btn-lg">Bize Ulaşın</a>
+        </div>
+    </header>
+
+    <section id="hizmetler" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Hizmetlerimiz</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-balance-scale fa-3x mb-3"></i>
+                            <h5 class="card-title">Ceza Hukuku</h5>
+                            <p class="card-text">Ceza davalarında uzman savunma hizmeti sunuyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-handshake fa-3x mb-3"></i>
+                            <h5 class="card-title">Medeni Hukuk</h5>
+                            <p class="card-text">Aile, miras ve kişiler hukuku alanlarında danışmanlık veriyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-briefcase fa-3x mb-3"></i>
+                            <h5 class="card-title">Ticaret Hukuku</h5>
+                            <p class="card-text">Şirketler ve ticari uyuşmazlıklar konusunda çözümler sunuyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Hakkımızda</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/api/placeholder/600/400" alt="Hukuk bürosu ekibi" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>Adalet Hukuk Bürosu olarak, 20 yılı aşkın tecrübemizle müvekkillerimize en iyi hukuki danışmanlık ve temsil hizmetlerini sunuyoruz. Uzman kadromuz ve çağdaş yaklaşımımızla, hukukun her alanında güvenilir çözümler üretiyoruz.</p>
+                    <p>Misyonumuz, adaletin tecellisi için var gücümüzle çalışmak ve müvekkillerimizin haklarını en üst düzeyde korumaktır.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">İletişim</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>Bize Ulaşın</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Adres: Hukuk Caddesi No:123, Adalet Mahallesi, İstanbul</p>
+                    <p><i class="fas fa-phone"></i> Telefon: (0212) 123 45 67</p>
+                    <p><i class="fas fa-envelope"></i> E-posta: info@adalethukuk.com</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Adınız Soyadınız">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="E-posta Adresiniz">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Mesajınız"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 Adalet Hukuk Bürosu. Tüm hakları saklıdır.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
